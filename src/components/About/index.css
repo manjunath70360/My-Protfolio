@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Jost&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=DM+Serif+Display&family=Jost&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Jost&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=PT+Serif&family=PT+Serif+Caption&family=Roboto+Condensed:wght@300&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=PT+Serif&family=PT+Serif+Caption&family=Roboto+Condensed:wght@300&display=swap');
+.content{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.portfolio-image{
+  margin: 0px;
+  height: 90%;
+  width: 90%;
+
+}
+
+
+
+.container{
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+.text-side{
+width: 50%;
+margin-top: 90px;
+margin-left: 20px;
+margin-right: 20px;
+flex-shrink: -1;
+}
+
+@media screen and (min-width:700px){
+  .portfolio-image{
+    margin: 0px;
+    height: 90%;
+    width: 70%;
+  
+  }
+  .text-side{
+  
+    margin-left: 40px;
+   
+    }
+
+}
+
+.image-container{
+  width: 70%;
+  height: 97%;
+  display: flex;
+  justify-content: flex-end;
+}
+.role{
+  font-family: varela round;
+  font-size: 12px;
+  font-weight: 600;
+  color: #FDC435;
+ 
+}
+.name{
+  font-family: pt serif caption;
+    font-size: 24px;
+    font-weight: 500;
+  margin-top: 5px;
+}
+.about-text{
+font-family: varela round;
+font-size: 16px;
+color: gray;
+margin-top: 20px;
+}
+.btn-container{
+  display: flex;
+justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+ margin-top: 30px;
+}
+
+.project-btn{
+  background-color: #FDC435;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  width: 90px;
+  font-weight: 600;
+  margin-right: 20px;
+
+}
+
+.project-btn:hover{
+  background-color: transparent;
+  padding: 12px;
+  border: 2px solid #FDC435;
+  border-radius: 6px;
+  width: 90px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #FDC435;
+}
+
+.linkedin-btn{
+  background-color: transparent;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 6px;
+  width: 90px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.linkedin-btn:hover{
+  background-color: black;
+  border: none;
+  color: white;
+  
+}
+
+.title-project{
+  font-family: league spartan;
+  font-size: 26px;
+  margin-bottom: 22px;
+  text-decoration: underline;
+  text-decoration-color: #FDC435;
+  text-decoration-thickness: 4px;
+}
+
+.projectsList-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+.skill-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

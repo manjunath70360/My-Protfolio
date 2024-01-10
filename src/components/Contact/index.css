@@ -1,0 +1,37 @@
+
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 110px;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.icon:hover{
+  transform: scale(1.1);
+}
+.copy-icon{
+  margin: 0px;
+  margin-top: 8px;
+}
+.copy-text{
+  margin-top: 0px;
+  font-size: 10px;
+}
+a{
+  color: #000;
+}
+
+

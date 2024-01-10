@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.nav-bar {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-top: 24px;
+  position: absolute;
+  background-color: transparent;
+}
+.logo-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name-logo {
+  font-family: abel;
+  font-weight: 600;
+  margin-top: 0px;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 9px;
+}
+
+p {
+  margin-top: 0px;
+}
+.nav-btn {
+  align-self: flex-end;
+  width: 38%;
+  display: flex;
+  padding-right: 60px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+@media screen and (min-width: 700px) {
+  .logo {
+    margin-left: 23px;
+  }
+  .nav-btn {
+    width: 30%;
+  }
+}
+.nav-text {
+  list-style: none;
+  font-family: ubuntu;
+  text-decoration: none;
+  color: black;
+  padding-top: 0px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.text {
+  position: relative;
+  text-decoration: none;
+}
+
+.text::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px;
+  width: 0;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.text:hover::after {
+  width: 100%;
+}
