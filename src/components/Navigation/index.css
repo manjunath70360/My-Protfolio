@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 .nav-bar {
-  padding-left: 10px;
-  padding-right: 10px;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 92vw;
   justify-content: space-between;
   text-decoration: none;
-  margin-top: 24px;
+  padding-left: 4px;
+
   position: absolute;
   background-color: transparent;
 }
@@ -36,11 +35,10 @@ p {
 }
 .nav-btn {
   align-self: flex-end;
-  width: 38%;
   display: flex;
-  padding-right: 60px;
   justify-content: space-between;
   text-decoration: none;
+  width: 40%;
 }
 @media screen and (min-width: 700px) {
   .logo {
@@ -80,4 +78,10 @@ p {
 
 .text:hover::after {
   width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-text {
+    font-size: 13px;
+  }
 }
