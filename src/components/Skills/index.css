@@ -1,24 +1,32 @@
-.skill-item{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-list-style: none;
-margin: 25px;
-transition: transform 0.3s ease-in-out;
-cursor: pointer;
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 20px;
+  width: 50px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
 }
 .skill-item:hover {
   transform: scale(1.1); /* Increase scale on hover */
 }
-.tech-name{
-    font-family: varela round;
-    color: black;
-    font-size: 12px;
-    font-weight: 600;
+.tech-name {
+  font-family: varela round;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+.tech-icon {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .tech-icon {
+    width: 30px;
+    height: 30px;
   }
-.tech-icon{
-width: 45px;
-height: 45px;
-margin-bottom: 5px;
 }
