@@ -18,35 +18,31 @@ function Navigation() {
         />
         <p className="name-logo">Manjunath</p>
       </div>
-      <ul className="nav-btn">
-        <li className="nav-text">
-          <button
-            className="nav-text"
-            type="button"
-            onClick={() => scrollToSection('about')}
-          >
-            <p className="text">About</p>
-          </button>
-        </li>
-        <li className="nav-text">
-          <button
-            className="nav-text"
-            type="button"
-            onClick={() => scrollToSection('projects')}
-          >
-            <p className="text">Projects</p>
-          </button>
-        </li>
-        <li className="nav-text">
-          <button
-            className="nav-text"
-            type="button"
-            onClick={() => scrollToSection('contact')}
-          >
-            <p className="text">Contact</p>
-          </button>
-        </li>
-      </ul>
+      <div className="nav-btn">
+        <button
+          className="nav-text about-btn"
+          type="button"
+          onClick={() => scrollToSection('about')}
+        >
+          <p className="text">About</p>
+        </button>
+
+        <button
+          className="nav-text"
+          type="button"
+          onClick={() => scrollToSection('projects')}
+        >
+          <p className="text">Projects</p>
+        </button>
+
+        <button
+          className="nav-text"
+          type="button"
+          onClick={() => scrollToSection('contact')}
+        >
+          <p className="text">Contact</p>
+        </button>
+      </div>
     </nav>
   )
 }
